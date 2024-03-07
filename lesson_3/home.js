@@ -16,21 +16,27 @@ let valueH;
 
 valueH = string[0];
 valueH = string[string.length - 1];
+console.log(valueH);
 
 valueH = string[0].toUpperCase();
 valueH = string[string.length - 1].toUpperCase();
 valueH = `${string[0].toUpperCase()}${string.slice(1, -1)}${string[string.length - 1].toUpperCase()}`;
-
+console.log(valueH);
 
 valueH = string.search("string");
+console.log(valueH);
 
 valueH = string.indexOf(" ", string.indexOf(" ") + 1);
+console.log(valueH);
 
 valueH = string.substr(5, 4);
+console.log(valueH);
 
 valueH = string.substring(5, 9);
+console.log(valueH);
 
 valueH = string.slice(0, -6);
+console.log(valueH);
 
 let a = 20;
 let b = 22;
